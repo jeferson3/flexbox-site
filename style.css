@@ -188,11 +188,13 @@ nav ul li a:hover {
 .grid .small{
 	height: 300px;
 	width: 40%;
+	margin: 5px;
 	border-radius: 5px;
 }
 .grid .large{
 	height: 300px;
 	width: 50%;
+	margin: 5px;
 	border-radius: 5px;
 }
 
