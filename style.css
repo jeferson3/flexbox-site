@@ -28,20 +28,22 @@
 	margin: 30px 0 20px;
 }
 
-.paragraph{
+.paragraph {
 	font-size: 1.2rem;
 	color: white;
 	font-weight: 700;
 	text-align: center;
 	margin: 30px 0 20px;
 }
-.text-white{
+
+.text-white {
 	color: white;
 }
 
-.text-default{
+.text-default {
 	color: grey;
 }
+
 /* buttons */
 
 .btn {
@@ -114,7 +116,7 @@ nav ul li {
 
 nav ul li a {
 	font-weight: 600;
-	transition: 0.2s all;
+	transition: 0.1s all;
 }
 
 nav ul li a:hover {
@@ -132,8 +134,6 @@ nav ul li a:hover {
 		margin-right: 5px;
 		margin-bottom: 10px;
 	}
-	
-
 }
 
 /*hero*/
@@ -148,7 +148,6 @@ nav ul li a:hover {
 	justify-content: center;
 }
 
-
 @media (max-width: 800px) {
 	.hero {
 		margin-top: 100px;
@@ -161,69 +160,70 @@ nav ul li a:hover {
 	}
 }
 
-.about{
+.about {
 	width: 100%;
 	padding: 50px 30px 50px 30px;
 }
-.about hr{
+
+.about hr {
 	height: 2px;
 	border: 1px solid;
 	width: 200px;
 	margin: 50px auto 50px auto;
 }
-.about h3{
+
+.about h3 {
 	color: grey;
 }
-.about p{
+
+.about p {
 	color: grey;
 }
-.grid{
+
+.grid {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	background-color: white;
 	padding: 15px;
-
 }
-.grid .small{
+
+.grid .small {
 	height: 300px;
 	width: 40%;
 	margin: 5px;
 	border-radius: 5px;
 }
-.grid .large{
+
+.grid .large {
 	height: 300px;
 	width: 50%;
 	margin: 5px;
 	border-radius: 5px;
 }
 
-@media (max-width: 800px){
-	.about{
-		padding: 0;
+@media (max-width: 800px) {
+	.about {
+		padding: 50px 0;
 	}
-	.grid{
+	.grid {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
-	.grid .small{
+	.grid .small {
 		width: 100%;
 		margin: 0;
-		margin-top: 10px;
 		margin-bottom: 10px;
-
 	}
-	.grid .large{
+	.grid .large {
 		width: 100%;
 		margin: 0;
-		margin-top: 10px;
 		margin-bottom: 10px;
-
 	}
 }
 
-.grid-caracteristic{
+.grid-caracteristic {
 	background-color: #191c03;
 	display: flex;
 	flex-direction: column;
@@ -231,43 +231,43 @@ nav ul li a:hover {
 	width: 100%;
 	padding: 50px;
 }
-.grid-caracteristic hr{
+
+.grid-caracteristic hr {
 	height: 2px;
 	width: 200px;
 	margin: 20px auto 50px auto;
-
 }
-.grid-details{
+
+.grid-details {
 	display: flex;
 }
-.grid-item{
+
+.grid-item {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 300px;
 	margin: 0 50px 0 50px;
 }
-.grid-item i{
+
+.grid-item i {
 	font-size: 50px;
 	color: #c3c63b;
 }
 
-
-@media (max-width: 1000px){
-	
-	.grid-details{
+@media (max-width: 1000px) {
+	.grid-details {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-
 	}
-	.grid-item{
+	.grid-item {
 		margin-top: 20px;
 	}
 }
 
-.newsletter{
+.newsletter {
 	width: 100%;
 	padding: 50px;
 	display: flex;
@@ -275,22 +275,23 @@ nav ul li a:hover {
 	align-items: center;
 }
 
-.newsletter hr{
+.newsletter hr {
 	height: 2px;
 	border: 1px solid;
 	width: 200px;
 	margin: 20px auto 50px auto;
 }
 
-.form{
+.form {
 	margin: 30px 0 50px;
 }
-form{
+
+form {
 	display: flex;
 	justify-content: center;
 }
 
-form input{
+form input {
 	padding: 15px;
 	width: 500px;
 	border-radius: 5px;
@@ -298,64 +299,43 @@ form input{
 	margin-right: 10px;
 }
 
-@media (max-width: 800px){
-	
-	.newsletter{
+@media (max-width: 800px) {
+	.newsletter {
 		padding: 50px 5px;
 	}
-
-	form{
+	form {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
 	}
-	form input{
+	form input {
 		margin-bottom: 20px;
 		width: 100%;
 	}
-	.form{
+	.form {
 		width: 100%;
 		margin: 0;
 	}
 }
 
-
-footer{
+footer {
 	width: 100%;
 	padding: 30px;
 	background-color: #191c03;
 }
 
-footer ul{
+footer ul {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	text-align: center;
 }
-footer ul li{
+
+footer ul li {
 	margin-right: 10px;
 }
 
-footer ul li i{
+footer ul li i {
 	font-size: 50px;
 	color: #c3c63b;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
