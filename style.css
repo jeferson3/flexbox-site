@@ -86,7 +86,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 50px 20px 50px;
+	padding: 20px 50px;
 	box-shadow: 1px 1px 2px lightgrey;
 	background-color: white;
 }
@@ -129,8 +129,11 @@ nav ul li a:hover {
 		margin-bottom: 20px;
 	}
 	header nav ul li {
+		margin-right: 5px;
 		margin-bottom: 10px;
 	}
+	
+
 }
 
 /*hero*/
@@ -194,6 +197,9 @@ nav ul li a:hover {
 }
 
 @media (max-width: 800px){
+	.about{
+		padding: 0;
+	}
 	.grid{
 		display: flex;
 		flex-direction: column;
@@ -291,7 +297,10 @@ form input{
 }
 
 @media (max-width: 800px){
-
+	
+	.newsletter{
+		padding: 50px 5px;
+	}
 
 	form{
 		display: flex;
