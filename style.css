@@ -1,0 +1,350 @@
+/*reset*/
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	color: grey;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-size: 100%;
+}
+
+/*text*/
+
+.title {
+	font-size: 3em;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+}
+
+.subtitle {
+	font-size: 2rem;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	margin: 30px 0 20px;
+}
+
+.paragraph{
+	font-size: 1.2rem;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	margin: 30px 0 20px;
+}
+.text-white{
+	color: white;
+}
+
+.text-default{
+	color: grey;
+}
+/* buttons */
+
+.btn {
+	border: none;
+	padding: 15px 20px;
+	background-color: transparent;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn-light {
+	background-color: white;
+}
+
+.btn-primary {
+	background-color: blue;
+}
+
+.btn-success {
+	background-color: green;
+}
+
+/*navbar*/
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 50px 20px 50px;
+	box-shadow: 1px 1px 2px lightgrey;
+	background-color: white;
+}
+
+header a img {
+	width: 200px;
+}
+
+nav {
+	height: 100%;
+	flex-wrap: wrap;
+}
+
+nav ul {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul li {
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	font-weight: 600;
+	transition: 0.2s all;
+}
+
+nav ul li a:hover {
+	border-bottom: 2px solid grey;
+}
+
+@media (max-width: 800px) {
+	header {
+		flex-direction: column;
+	}
+	header a img {
+		margin-bottom: 20px;
+	}
+	header nav ul li {
+		margin-bottom: 10px;
+	}
+}
+
+/*hero*/
+
+.hero {
+	background-image: url(img/hero.jpg);
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+@media (max-width: 800px) {
+	.hero {
+		margin-top: 100px;
+	}
+	.hero h1 {
+		font-size: 2.5em;
+	}
+	.hero h3 {
+		font-size: 1.5em;
+	}
+}
+
+.about{
+	width: 100%;
+	padding: 50px 30px 50px 30px;
+}
+.about hr{
+	height: 2px;
+	border: 1px solid;
+	width: 200px;
+	margin: 50px auto 50px auto;
+}
+.about h3{
+	color: grey;
+}
+.about p{
+	color: grey;
+}
+.grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: white;
+	padding: 15px;
+
+}
+.grid .small{
+	height: 300px;
+	width: 40%;
+	border-radius: 5px;
+}
+.grid .large{
+	height: 300px;
+	width: 50%;
+	border-radius: 5px;
+}
+
+@media (max-width: 800px){
+	.grid{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.grid .small{
+		width: 100%;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+	.grid .large{
+		width: 100%;
+		margin: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+	}
+}
+
+.grid-caracteristic{
+	background-color: #191c03;
+	display: flex;
+	flex-direction: column;
+	/*height: 100vh;*/
+	width: 100%;
+	padding: 50px;
+}
+.grid-caracteristic hr{
+	height: 2px;
+	width: 200px;
+	margin: 20px auto 50px auto;
+
+}
+.grid-details{
+	display: flex;
+}
+.grid-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	margin: 0 50px 0 50px;
+}
+.grid-item i{
+	font-size: 50px;
+	color: #c3c63b;
+}
+
+
+@media (max-width: 1000px){
+	
+	.grid-details{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.grid-item{
+		margin-top: 20px;
+	}
+}
+
+.newsletter{
+	width: 100%;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.newsletter hr{
+	height: 2px;
+	border: 1px solid;
+	width: 200px;
+	margin: 20px auto 50px auto;
+}
+
+.form{
+	margin: 30px 0 50px;
+}
+form{
+	display: flex;
+	justify-content: center;
+}
+
+form input{
+	padding: 15px;
+	width: 500px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	margin-right: 10px;
+}
+
+@media (max-width: 800px){
+
+
+	form{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	form input{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.form{
+		width: 100%;
+		margin: 0;
+	}
+}
+
+
+footer{
+	width: 100%;
+	padding: 30px;
+	background-color: #191c03;
+}
+
+footer ul{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+footer ul li{
+	margin-right: 10px;
+}
+
+footer ul li i{
+	font-size: 50px;
+	color: #c3c63b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
