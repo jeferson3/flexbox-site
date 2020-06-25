@@ -124,11 +124,22 @@
 			}
 
 		})
+
+
 		document.getElementById('scroll')
 			.addEventListener('click', function () {
-				scroll(0, 0);
-			})
+				var time = scrollY;
+				var interval = setInterval(delayScrol, 25)
 
+				function delayScrol() {
+					scroll(0, time);
+					if (time < 100) {
+						clearInterval(interval);
+						scroll(0, 0);
+					}
+					time -= 100;
+				}
+			})
 
 
 	</script>
