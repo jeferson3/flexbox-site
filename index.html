@@ -105,6 +105,27 @@
 			Todos os direitos reservados copyright &copy; 2020
 		</p>
 	</footer>
+	<button class="scrollup" id="scroll">
+		<i class="fa fa-arrow-up" aria-hidden="true"></i>
+	</button>
+	<script>
 
+		addEventListener('scroll', function() {
+			let btScroll = document.getElementById('scroll');
+			if (scrollY >= 1000) {
+				btScroll.style.display = 'block';
+			} else{
+				btScroll.style.display = 'none';
+			}
+			
+		})
+		document.getElementById('scroll')
+			.addEventListener('click', function() {
+				scroll(0, 0);
+			})
+
+
+
+	</script>
 </body>
 </html>

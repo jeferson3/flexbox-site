@@ -9,6 +9,7 @@
 	list-style: none;
 	text-decoration: none;
 	font-size: 100%;
+	outline: none;
 }
 
 /*text*/
@@ -338,4 +339,22 @@ footer ul li {
 footer ul li i {
 	font-size: 50px;
 	color: #c3c63b;
+}
+.scrollup{
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	border: none;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+	background-color: lightgrey;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+}
+.scrollup i{
+	color: black;
+}
+.scrollup:hover{
+	opacity: 0.5;
 }
